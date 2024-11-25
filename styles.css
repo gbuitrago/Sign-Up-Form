@@ -46,3 +46,38 @@ p.quote:nth-child(1){
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+div.form{
+    padding-left: 50px;
+}
+
+h2{
+    color: gray
+}
+
+form{
+    display: flex;
+    min-height: 100%;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column
+}
+
+div.form-right, div.form-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-width: 50%
+    
+}
+
+label{
+    font-weight: 600;
+}
+
+input{
+    max-width: 50%;
+}
